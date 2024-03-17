@@ -14,3 +14,7 @@ Command line commands for steps:
 - Step 3: Run the hello-pipeline
     Run the pipeline using the Tekton CLI:
     tkn pipeline start --showlog hello-pipeline
+
+- Step 4: Add a parameter to the task
+    After modifying the tasks.yaml, use below command
+    kubectl apply -f tasks.yaml
