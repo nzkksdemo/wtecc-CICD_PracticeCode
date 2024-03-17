@@ -18,3 +18,7 @@ Command line commands for steps:
 - Step 4: Add a parameter to the task
     After modifying the tasks.yaml, use below command
     kubectl apply -f tasks.yaml
+
+- Step 5: Update the hello-pipeline to message-pipeline and change the config
+    After modifying the pipeline.yaml, use below command
+    kubectl apply -f pipeline.yaml
