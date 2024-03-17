@@ -10,3 +10,7 @@ Command line commands for steps:
 - Step 2: Create a hello-pipeline Pipeline
     After modifying the pipeline.yaml, use below command
     kubectl apply -f pipeline.yaml
+
+- Step 3: Run the hello-pipeline
+    Run the pipeline using the Tekton CLI:
+    tkn pipeline start --showlog hello-pipeline
