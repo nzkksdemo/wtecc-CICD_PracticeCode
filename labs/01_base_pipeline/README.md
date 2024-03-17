@@ -32,3 +32,7 @@ Command line commands for steps:
 - Step 7: Create a checkout Task
     After adding the new task below the first one, use below command
     kubectl apply -f tasks.yaml
+
+- Step 8: Create the cd-pipeline Pipeline
+    After adding the new pipeline in the pipeline.yaml, use below command
+    kubectl apply -f pipeline.yaml
