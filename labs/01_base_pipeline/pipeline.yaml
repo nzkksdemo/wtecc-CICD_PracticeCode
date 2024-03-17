@@ -21,7 +21,7 @@ spec:
   params:
     - name: repo-url
     - name: branch
-      default: master
+      default: main
   tasks:
     - name: clone
       taskRef:
