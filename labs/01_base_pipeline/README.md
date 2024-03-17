@@ -47,3 +47,10 @@ Command line commands for steps:
 - Step 10: Update the cd-pipeline Pipeline
     After adding the new tasks in the pipeline.yaml, use below command
     kubectl apply -f pipeline.yaml
+
+- Step 11: Run the cd-pipeline
+    Run the pipeline using the Tekton CLI:
+    tkn pipeline start cd-pipeline \
+    --showlog  \
+    -p repo-url="https://github.com/nzkksdemo/wtecc-CICD_PracticeCode.git" \
+    -p branch="main"
