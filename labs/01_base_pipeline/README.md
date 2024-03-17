@@ -22,3 +22,9 @@ Command line commands for steps:
 - Step 5: Update the hello-pipeline to message-pipeline and change the config
     After modifying the pipeline.yaml, use below command
     kubectl apply -f pipeline.yaml
+
+- Step 6: Run the message-pipeline
+    Run the pipeline using the Tekton CLI:
+    tkn pipeline start hello-pipeline \
+    --showlog  \
+    -p message="Hello Tekton!"
