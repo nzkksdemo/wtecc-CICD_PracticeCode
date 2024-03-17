@@ -28,3 +28,7 @@ Command line commands for steps:
     tkn pipeline start hello-pipeline \
     --showlog  \
     -p message="Hello Tekton!"
+
+- Step 7: Create a checkout Task
+    After adding the new task below the first one, use below command
+    kubectl apply -f tasks.yaml
