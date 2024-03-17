@@ -43,3 +43,7 @@ Command line commands for steps:
     --showlog  \
     -p repo-url="https://github.com//nzkksdemo/wtecc-CICD_PracticeCode.git" \
     -p branch="main"
+
+- Step 10: Update the cd-pipeline Pipeline
+    After adding the new tasks in the pipeline.yaml, use below command
+    kubectl apply -f pipeline.yaml
